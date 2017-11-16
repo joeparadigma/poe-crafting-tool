@@ -1,0 +1,8 @@
+-- All mods
+INSERT INTO MODS(ID, NAME, TEMPLATE_TEXT, AFFIX_TYPE) VALUES(1, 'Maximum mana', '{} to maximum Mana', 0);
+
+-- All mod tiers
+INSERT INTO MOD_TIERS(ID, MOD, TIER, PERCENT, ILEVEL, MIN_RANGE, MAX_RANGE) VALUES(120001, 1, 12, 1.51, 1, 15, 19);
+
+-- All mods available per item base
+INSERT INTO MODS_BASES(MOD, ITEM_BASE) VALUES(1, 1);

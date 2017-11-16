@@ -1,0 +1,6 @@
+spring:
+  flyway:
+    placeholder-replacement: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
